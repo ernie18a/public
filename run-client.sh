@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p /g/.public/TMP/cache
 set -e
 
 # 確保在專案目錄下執行
