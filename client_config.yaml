@@ -5,13 +5,13 @@ control_listen: "127.0.0.1:9913"
 exit_constraint: "auto"
 allow_direct: false
 port_forward: []
-cache: "./TMP/cache"
+cache: "./TMP/cache/geph5.db"
 vpn: false
 spoof_dns: false
 passthrough_china: false
 dry_run: false
 credentials:
-  secret: ""
+  secret: "912238511575407778606820"
 broker:
   race:
     - fronted:
