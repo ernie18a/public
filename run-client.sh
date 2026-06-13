@@ -16,8 +16,8 @@ if ! command -v cargo &> /dev/null; then
     NEEDS_INSTALL=true
 else
     # 取得當前的次要版本號 (例如 1.75.0 中的 75)
-    RUST_MINOR_VER=$(cargo --version | cut -d' ' -f2 | cut -d'.' -f2)
-    if [ "$RUST_MINOR_VER" -lt 85 ]; then
+    RUST_MINOR_VER=$(cargo --version 2>/dev/null | cut -d' ' -f2 | cut -d'.' -f2)
+    if [ -z "$RUST_MINOR_VER" ] || [ "$RUST_MINOR_VER" -lt 85 ]; then
         NEEDS_INSTALL=true
     fi
 fi
