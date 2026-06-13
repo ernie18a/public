@@ -1,0 +1,51 @@
+source,origin_files,source_family,price,cleanliness,difficulty,access,tw_signal,chain_signal,bom_proximity,processing_cost,status,notes
+TWSE,sourceMethods.md,market_data,free,clean,easy,api,high,low,low,low,keep,official Taiwan exchange history
+TPEx,sourceMethods.md,market_data,free,clean,easy,api,high,low,low,low,keep,official Taiwan OTC history
+TAIFEX,sourceMethods.md,market_data,free,clean,easy,api,high,low,low,low,keep,Taiwan futures and options data
+CBC API,sourceMethods.md,macro_policy,free,clean,easy,api,high,low,low,low,keep,Taiwan central bank statistics
+data.gov.tw,sourceMethods.md,macro_policy,free,clean,easy,api,high,low,low,low,keep,Taiwan open data for indices and ratios
+TEJ,sourceMethods.md,market_data,paid,clean,easy,database,high,low,low,low,keep,Taiwan finance database with history and fundamentals
+TWSE ETFortune,sourceMethods.md,market_data,free,clean,easy,csv,high,low,low,low,keep,ETF holdings and statistics
+iTick,sourceMethods.md,market_data,partial,clean,easy,api,high,low,low,low,maybe,Taiwan intraday and historical quotes
+Fubon Neo API,sourceMethods.md,market_data,partial,clean,easy,api,high,low,low,low,maybe,Taiwan market data via broker API
+PTT,sourceMethods.md,social_signal,free,dirty,medium,web,high,low,low,high,maybe,Taiwan discussion heat and sentiment
+Dcard,sourceMethods.md,social_signal,free,dirty,medium,web,high,low,low,high,maybe,Taiwan discussion heat and sentiment
+EODHD,methods.md|sourceMethods.md|sourceMethods2.md,market_data,partial,clean,easy,api,low,low,low,low,maybe,global market fundamentals and options
+Finnhub,methods.md|sourceMethods.md|sourceMethods2.md,market_data,partial,clean,easy,api,low,medium,low,low,maybe,market data news sentiment and chain endpoint
+Twelve Data,methods.md|sourceMethods.md|sourceMethods2.md,market_data,partial,clean,easy,api,low,low,low,low,maybe,historical and intraday market data
+FMP,methods.md|sourceMethods.md|sourceMethods2.md,market_data,partial,clean,easy,api,low,low,low,low,maybe,fundamentals and ETF data
+FRED,methods.md|sourceMethods.md|sourceMethods2.md|sourceMethods3.md,macro_policy,free,clean,easy,api,low,low,low,low,keep,clean macro series
+Stooq,methods.md|sourceMethods.md|sourceMethods2.md|sourceMethods3.md,market_data,free,clean,easy,api,low,low,low,low,keep,historical price data
+Polygon,methods.md|sourceMethods.md|sourceMethods2.md|sourceMethods3.md,market_data,partial,clean,easy,api,low,low,low,low,keep,market data API
+Alpaca,methods.md|sourceMethods.md|sourceMethods2.md|sourceMethods3.md,market_data,partial,clean,easy,api,low,low,low,low,keep,market data API
+Alpha Vantage,methods.md|sourceMethods.md|sourceMethods2.md,market_data,partial,clean,easy,api,low,low,low,low,maybe,supplementary market data API
+iShares,methods.md|sourceMethods.md,market_data,free,clean,easy,api,low,low,low,low,maybe,ETF holdings and history
+SPDR,methods.md|sourceMethods.md,market_data,free,clean,easy,api,low,low,low,low,maybe,ETF holdings and history
+ETFDB,methods.md|sourceMethods.md,market_data,free,clean,easy,web,low,low,low,low,maybe,ETF reference and holdings
+Yahoo Finance,methods.md|sourceMethods.md,market_data,free,clean,easy,web,low,low,low,low,maybe,public market history
+Google Trends,methods.md|sourceMethods.md|sourceMethods2.md,social_signal,free,clean,easy,api,low,low,low,low,maybe,attention signal only
+Reddit,methods.md|sourceMethods.md|sourceMethods2.md,social_signal,free,dirty,medium,web,low,low,low,high,maybe,noisy but usable sentiment source
+OpenSecrets,methods.md|sourceMethods.md|sourceMethods2.md,macro_policy,partial,clean,easy,api,low,low,low,low,maybe,lobbying and political exposure
+USAspending.gov,methods.md|sourceMethods.md|sourceMethods2.md,macro_policy,free,clean,easy,api,low,low,low,low,maybe,government spend and contracts
+SEC filings,methods.md|sourceMethods.md|sourceMethods3.md,fundamental_filings,free,dirty,medium,filing,medium,medium,medium,high,keep,core filing corpus for supplier and risk mentions
+10-K / 20-F,sourceMethods3.md,fundamental_filings,free,mixed,medium,filing,medium,medium,medium,medium,keep,structured filing subset
+earnings transcripts,methods.md|sourceMethods.md|sourceMethods3.md,fundamental_filings,partial,dirty,medium,transcript,medium,medium,low,high,keep,management Q and A and guidance
+company supplier disclosures,sourceMethods3.md,fundamental_filings,free,dirty,hard,web,high,high,medium,high,keep,IR and ESG pages with explicit supplier detail
+company IR / annual reports / ESG / supplier responsibility report,sourceMethods3.md,fundamental_filings,free,dirty,hard,web,medium,medium,low,high,maybe,verification layer for disclosed supplier detail
+US import manifest,methods.md|sourceMethods.md,shipping_manifest,free,dirty,hard,web,high,high,medium,high,keep,raw manifest data is noisy but valuable
+ImportYeti,methods.md|sourceMethods.md,shipping_manifest,free,clean,easy,web,high,high,medium,low,keep,public bill of lading aggregation
+Panjiva,methods.md|sourceMethods.md|sourceMethods3.md,shipping_manifest,paid,clean,easy,database,high,high,medium,low,keep,shipment and customs database
+ImportGenius,methods.md|sourceMethods.md|sourceMethods3.md,shipping_manifest,paid,clean,medium,database,high,high,medium,medium,keep,commercial customs database
+Datamyne,methods.md|sourceMethods.md|sourceMethods3.md,shipping_manifest,paid,clean,medium,database,high,high,medium,medium,keep,customs database for shipment tracing
+Sayari,sourceMethods3.md,supply_chain_graph,paid,clean,medium,terminal,medium,high,low,medium,maybe,entity resolution and relationship tracing
+SemiAnalysis,methods.md|sourceMethods.md|sourceMethods3.md,industry_research,paid,clean,medium,report,high,high,medium,medium,keep,high signal AI and semis research
+TrendForce,methods.md|sourceMethods.md,industry_research,paid,clean,medium,report,high,high,medium,medium,keep,Taiwan semis AI and server coverage
+TechInsights,methods.md|sourceMethods.md|sourceMethods3.md,teardown_bom,paid,clean,medium,report,high,high,high,medium,keep,closest to BOM and teardown
+Omdia,methods.md|sourceMethods.md,industry_research,paid,clean,medium,report,medium,medium,medium,medium,maybe,market research and validation layer
+Counterpoint,methods.md|sourceMethods.md,industry_research,paid,clean,medium,report,medium,medium,medium,medium,maybe,mobile and semis market research
+Gartner,methods.md|sourceMethods.md,industry_research,paid,clean,medium,report,low,low,low,medium,maybe,broad market validation
+IDC,methods.md|sourceMethods.md,industry_research,paid,clean,medium,report,low,low,low,medium,maybe,broad market validation
+Bloomberg Terminal,methods.md|sourceMethods.md|sourceMethods3.md,terminal,paid,clean,easy,terminal,medium,medium,low,low,maybe,broad institutional terminal
+AlphaSense,sourceMethods3.md,terminal,paid,clean,easy,terminal,medium,medium,low,low,maybe,text aggregation for filings reports and news
+Tegus,sourceMethods3.md,terminal,paid,clean,easy,terminal,medium,medium,low,low,maybe,expert calls and research aggregation
+GDELT,sourceMethods3.md,social_signal,free,dirty,easy,api,medium,medium,low,medium,maybe,news event layer

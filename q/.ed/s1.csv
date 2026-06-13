@@ -1,0 +1,40 @@
+source,origin_files,source_family,price,cleanliness,difficulty,access,tw_signal,chain_signal,bom_proximity,processing_cost,status,notes
+FactSet Supply Chain Relationships,sourcePick.t.md|sourceStack.md,supply_chain_graph,paid,clean,easy,database,high,high,high,low,keep,direct supplier/customer graph
+FactSet Shipping,sourcePick.t.md|sourceStack.md,shipping_manifest,paid,clean,easy,database,high,high,medium,low,keep,standardized shipments for chain tracing
+Panjiva,sourcePick.t.md|sourceRank.md|sourceStack.md|sourceRankUs.md,shipping_manifest,paid,clean,easy,api,high,high,medium,low,keep,shipment lookup and HS code flow
+Finnhub Supply Chain Relationships,sourcePick.t.md|sourceStack.md,supply_chain_graph,partial,clean,easy,api,high,high,medium,low,keep,supply chain endpoint is premium
+ImportYeti,sourcePick.t.md|sourceRank.md|sourceStack.md|sourceRankUs.md,shipping_manifest,free,clean,easy,web,high,high,medium,low,keep,public BOL aggregation
+SemiAnalysis,sourcePick.t.md|sourceRank.md|sourceStack.md|sourceRankUs.md,industry_research,paid,clean,medium,report,high,high,medium,medium,keep,high signal AI and semis research
+TrendForce,sourcePick.t.md|sourceRank.md|sourceStack.md|sourceRankUs.md,industry_research,paid,clean,medium,report,high,high,medium,medium,keep,Taiwan semis AI and server coverage
+TechInsights,sourcePick.t.md|sourceRank.md|sourceStack.md|sourceRankUs.md,teardown_bom,paid,clean,medium,report,high,high,high,medium,keep,closest to BOM and teardown
+ImportGenius,sourcePick.t.md|sourceRank.md|sourceStack.md|sourceRankUs.md,shipping_manifest,paid,clean,medium,database,high,high,medium,medium,keep,concentrated trade data
+Datamyne,sourcePick.t.md|sourceRank.md|sourceStack.md|sourceRankUs.md,shipping_manifest,paid,clean,medium,database,high,high,medium,medium,keep,concentrated customs trade database
+US import manifest,sourceRank.md|sourceRankUs.md|sourceStack.md,shipping_manifest,partial,dirty,hard,web,high,high,medium,high,keep,raw manifest is noisy but valuable
+Omdia,sourceRank.md|sourceStack.md,industry_research,paid,clean,medium,report,medium,medium,medium,medium,maybe,market research and validation layer
+Counterpoint,sourceRank.md|sourceStack.md,industry_research,paid,clean,medium,report,medium,medium,medium,medium,maybe,mobile and semis market research
+Gartner,sourceRank.md|sourceStack.md,industry_research,paid,clean,medium,report,low,low,low,medium,maybe,broad market validation with weak chain fit
+IDC,sourceRank.md|sourceStack.md,industry_research,paid,clean,medium,report,low,low,low,medium,maybe,broad market validation with weak chain fit
+AlphaSense,sourceStack.md,terminal,paid,clean,easy,terminal,medium,medium,low,low,maybe,text aggregation for filings reports and news
+Tegus,sourceStack.md,terminal,paid,clean,easy,terminal,medium,medium,low,low,maybe,expert calls and research aggregation
+Quartr,sourceStack.md,terminal,paid,clean,easy,terminal,medium,medium,low,low,maybe,earnings and audio aggregation
+Koyfin,sourceStack.md,terminal,paid,clean,easy,terminal,medium,low,low,low,maybe,broad research and market interface
+Bloomberg Terminal,sourceStack.md|sourceRankUs.md,terminal,paid,clean,easy,terminal,medium,medium,low,low,maybe,broad institutional terminal
+FactSet,sourceStack.md|sourceRankUs.md,terminal,paid,clean,easy,terminal,medium,medium,low,low,maybe,broad institutional terminal
+Refinitiv,sourceStack.md,terminal,paid,clean,easy,terminal,medium,medium,low,low,maybe,broad institutional terminal
+OpenBB,sourceStack.md,market_data,free,clean,easy,api,low,low,low,low,maybe,base finance toolkit not chain core
+EODHD,sourceStack.md,market_data,partial,clean,easy,api,low,low,low,low,maybe,market and fundamental API
+Twelve Data,sourceStack.md,market_data,partial,clean,easy,api,low,low,low,low,maybe,market data API
+Finnhub,sourceStack.md|sourceRankUs.md,market_data,partial,clean,easy,api,medium,low,low,low,maybe,generic API and separate supply chain endpoint exists
+ETF issuer data,sourceRankUs.md|sourceStack.md,market_data,free,clean,easy,csv,low,low,low,low,maybe,holdings flow and rebalancing
+SEC filings,sourceRankUs.md|sourceStack.md,fundamental_filings,free,dirty,medium,filing,medium,medium,medium,high,maybe,distributed filing layer
+10-K / 20-F,sourceRankUs.md|sourceStack.md,fundamental_filings,free,mixed,medium,filing,medium,medium,medium,medium,maybe,structured financial filing subset
+earnings transcripts,sourceRankUs.md|sourceStack.md,fundamental_filings,partial,dirty,medium,transcript,medium,medium,low,high,maybe,management Q and A and guidance
+company supplier disclosures,sourceRankUs.md|sourceStack.md,fundamental_filings,free,dirty,hard,web,high,high,medium,high,maybe,valuable but distributed and messy
+financial news / press release / company announcement,sourceStack.md|sourceRankUs.md,fundamental_filings,free,dirty,hard,web,low,low,low,high,drop,not a core supply chain source
+FRED,sourceRankUs.md|sourceStack.md,macro_policy,free,clean,easy,api,low,low,low,low,maybe,clean macro base layer
+BLS,sourceRankUs.md|sourceStack.md,macro_policy,free,clean,easy,api,low,low,low,low,maybe,labor and inflation series
+IMF,sourceRankUs.md|sourceStack.md,macro_policy,free,clean,easy,api,low,low,low,low,maybe,global macro series
+USAspending.gov,sourceRankUs.md|sourceStack.md,macro_policy,free,clean,easy,api,low,low,low,low,maybe,government spend and contracts
+OpenSecrets,sourceRankUs.md|sourceStack.md,macro_policy,partial,clean,easy,api,low,low,low,low,maybe,lobbying and political exposure
+Google Trends,sourcePick.t.md|sourceStack.md|sourceRankUs.md,market_data,free,clean,easy,api,low,low,low,low,drop,auxiliary attention signal only
+Reddit,sourcePick.t.md|sourceStack.md|sourceRankUs.md,social_signal,free,dirty,medium,web,low,low,low,high,drop,noisy and not core supply chain data
